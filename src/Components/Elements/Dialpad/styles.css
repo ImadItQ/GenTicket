@@ -1,0 +1,56 @@
+.dial-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 15px;
+}
+.input-field {
+  display: inline;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.input-field:focus {
+  outline: none;
+}
+.input-field::placeholder {
+  display: inline;
+  font-size: 12px;
+  color: red;
+  text-align: right;
+}
+.number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number {
+  border: 0.2px solid #ccc;
+  padding: 30px 60px;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wheel-container {
+  width: 300px;
+  height: auto;
+  padding: 20px 50px 50px 40px;
+}
+
+.wheel-spin {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

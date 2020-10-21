@@ -1,0 +1,12 @@
+.ticket-card {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.ticket-val {
+  color: white;
+  background-color: navy;
+}
